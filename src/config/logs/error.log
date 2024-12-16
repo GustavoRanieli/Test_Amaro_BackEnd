@@ -1,0 +1,13 @@
+2024-12-15 23:50:00 - [31merror[39m - [31minsert into `product` (`category`, `description`, `name`, `notice`, `price`, `url_img`) values (2, 'TEstetetetetet', 'Testando Envio', 15, 15, DEFAULT) - ER_BAD_FIELD_ERROR: Unknown column 'url_img' in 'field list'[39m
+2024-12-16 01:31:00 - [31merror[39m - [31mselect * from `product` where `category` = NaN and `notice` >= NaN - ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'[39m
+2024-12-16 01:31:09 - [31merror[39m - [31mselect * from `product` where `category` = NaN and `notice` >= NaN - ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'[39m
+2024-12-16 01:31:13 - [31merror[39m - [31mselect * from `product` where `category` = NaN and `notice` >= NaN - ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'[39m
+2024-12-16 01:31:13 - [31merror[39m - [31mselect * from `product` where `category` = NaN and `notice` >= NaN - ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'[39m
+2024-12-16 01:31:57 - [31merror[39m - [31mselect * from `product` where `category` = NaN and `notice` >= NaN - ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'[39m
+2024-12-16 01:31:57 - [31merror[39m - [31mselect * from `product` where `category` = NaN and `notice` >= NaN - ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'[39m
+2024-12-16 01:32:49 - [31merror[39m - [31mselect * from `product` where `category` = NaN and `notice` >= NaN - ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'[39m
+2024-12-16 01:32:49 - [31merror[39m - [31mselect * from `product` where `category` = NaN and `notice` >= NaN - ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'[39m
+2024-12-16 01:33:07 - [31merror[39m - [31mselect * from `product` where `notice` >= NaN - ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'[39m
+2024-12-16 01:33:07 - [31merror[39m - [31mselect * from `product` where `notice` >= NaN - ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'[39m
+2024-12-16 01:34:30 - [31merror[39m - [31mselect * from `product` where `notice` >= NaN - ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'[39m
+2024-12-16 01:56:48 - [31merror[39m - [31mselect * from `product` where `notice` = NaN - ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'[39m
