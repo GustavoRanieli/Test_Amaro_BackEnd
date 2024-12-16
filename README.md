@@ -18,20 +18,23 @@ Instale as dependências do projeto usando o comando:
 3. Estrutura do Projeto
 O projeto é estruturado da seguinte forma:
 
-Copiar código
 /src/
 │
-├── config/         // Configurações globais (ex: configuração do JWT, banco de dados, etc.)
-├── controllers/    // Lógica de controle da aplicação
-├── database/       // Lógica de interação com o banco de dados
-├── routers/        // Definições de rotas da API
-├── uploads/        // Diretório para armazenar arquivos de upload
-│   └── <upload_files>
-├── index.ts        // Arquivo de entrada do projeto (configuração inicial)
-├── .env            // Variáveis de ambiente (definir as variáveis de configuração do banco e outras necessidades)
+├── components/     // Componentes reutilizáveis do projeto
+├── pages/          // Páginas da aplicação
+├── routes/         // Configuração das rotas da aplicação
+├── slices/         // Slice do Redux (redutores e ações)
+├── store/          // Configuração do Redux Store
+│   └── index.ts    // Arquivo de configuração do Redux
+│
+├── App.tsx         // Arquivo principal da aplicação
+├── App.css         // Estilos globais
+├── main.tsx        // Ponto de entrada da aplicação
+│
 ├── package.json    // Manifesto do projeto (dependências, scripts, etc.)
-├── README          // Este documento
-└── test_amaro.sql  // Banco de dados SQL inicial para criação do banco `test_amaro`
+├── tsconfig.json   // Configuração do TypeScript
+└── yarn.lock       // Arquivo de lock do Yarn
+
 
 
 
